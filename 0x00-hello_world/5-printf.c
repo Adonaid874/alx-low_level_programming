@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - printing with printf and a new line
-  * Return: Always 0 (Successful)
+  * main - print with printf and new line
+  *
+  * Return: 0
   */
 
 int main(void)
