@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-  * main - print a file with a new line
-  * Return: Always 0
+  * main - printing with printf and a new line
+  * Return: Always 0 (Success)
   */
 
 int main(void)
