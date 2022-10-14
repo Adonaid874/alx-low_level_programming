@@ -5,17 +5,17 @@
   */
 int main(void)
 {
-	char q;
-	char w;
+	char i;
+	char j;
 
-	for (q = 'a'; q <= 'z'; q++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(q);
+		putchar(i);
 	}
-	for (w = 'A'; w <= 'Z'; w++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{
-		putchar(w);
+		putchar(j);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
