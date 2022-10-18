@@ -1,34 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
-  * main - Entry
-  * print_until_newline - Character
-  * @s: The string to be checked
-  * Return: 0
+  * main - prints
+  * Return: Always 0
   */
-void print_until_newline(char *s);
-
 int main(void)
 {
-	char s[] = "_putchar\n";
+	int str[] = {95,112, 117, 116, 99, 104, 97, 114};
+	int count, sz;
 
-	print_until_newline(s);
-	putchar('\n');
-
-	return (0);
-}
-/**
- * print_until_newline - character
- * @s: The string to be checked
- */
-
-void print_until_newline(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\n')
+	sz = sizeof(str) / sizeof(int);
+	for (count = 0; count < sz; count++)
 	{
-		putchar(s[i]);
-		i++;
+		_putchar(str[count]);
 	}
+	_putchar('\n');
+	return(0);
 }
-
